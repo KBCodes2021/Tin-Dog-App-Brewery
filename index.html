@@ -1,217 +1,189 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-
-<!-- BootStrap Install Links -->
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
-<!-- BootStrap Install Links -->
-
-
 <head>
-  <meta charset="utf-8">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@900&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/styles.css">
-
-  <title>Creative</title>
+<meta charset="utf-8">
+<title>Nick's Personal Site</title>
+<link rel="stylesheet" href="css/styles.css">
 </head>
 
-<!-- Font Awesome -->
-<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
-
-<!-- Navbar -->
-
-<!-- Navbar formatting -->
-
-<nav class="navbar navbar-light bg-primary fixed-top">
-
-
-  <div class="container-fluid">
-
-
-    <!-- Navbar text formatting -->
-
-
-    <a class="navbar-brand mb-0 h1" href="#"></a>
-
-    <!-- Navbar Icon -->
-
-    <img src="images/LiteralButton.png" alt="" width="60" height="60">
-
-
-    <a class="navbar-brand mb-0 h1 navbar-text" href="#">Top</a>
-    <a class="navbar-brand mb-0 h1 navbar-text" href="#Middle">Middle</a>
-    <a class="navbar-brand mb-0 h1 navbar-text" href="#Bottom">Bottom</a>
-
-
-    <!-- Navbar Icon -->
-
-    <img src="images/LiteralButton.png" alt="" width="60" height="60">
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigate</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My Contact Info</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</nav>
-
-<!-- Navbar -->
-
 <body>
-
-
-  <!-- Title -->
-
-  <p class="title">Welcome to My First Site!</p>
-
-
-
-  <!-- Carosel Div 1 -->
-
-
-
-  <div class="div1">
-
-
-
-    <p10>Canva is Awesome!</p10>
-    <br><br><br><br>
-
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/LightningCity.png" class="d-block w-100" alt="Lightning City">
-          <div class="carousel-caption d-none d-md-block">
-            <p class="caroselText">Lightning City</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/FireWolf.png" class="d-block w-100" alt="Fire Wolf Art">
-          <div class="carousel-caption d-none d-md-block">
-            <p class="caroselText">Fire Wolf</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/VikingOcean.png" class="d-block w-100" alt="Viking Ocean Art">
-          <div class="carousel-caption d-none d-md-block">
-            <p class="caroselText">Viking Ocean</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-
-  <!-- Carosel Div 1-->
-
-  <a id="Middle"></a>
-
-  <!-- JavaScript Div 2-->
-  <div class="div2">
-    <p11>JavaScript is Awesome!</p11>
-
-  </div>
-  <!-- JavaScript Div 2-->
-
-
-  <!-- JQuery Div 3-->
-
-  <div class="div3">
-
-    <p2>JQuery is Awesome!</p2> <!-- H6 is just for JQuery-->
+<table cellspacing="10">
+<tr>
+<td>
+<h1>Nick Krause</h1>
+<h3>A 100% Self Taught Web Programmer</h3>
+<h3>Welcomes you to my his collection!</h3>
+<h3>Fireocean2020@gmail.com</h3>
+<h3>778-998-1428</h3>
+</td>
+</tr>
+</table>
+<br>
+<hr>
+<br>
+<table cellspacing="10">
+    <tr>
+    <h3><strong>My Completed Programming Training:</strong></h3>
+    </tr>
+</table>
+<br>
+<table cellspacing="10">
+    <tr>
+    <li>Full Stack Web Development from Udemy with Angela Yu</li>
+    </tr>
     <br>
-    <p3>JQuery is Awesome!</p3> <!-- H7 is just for JQuery-->
-    <br>
-    <p4>JQuery is Awesome!</p4> <!-- H7 is just for JQuery-->
-    <br>
-    <p5>JQuery is Awesome!</p5> <!-- H7 is just for JQuery-->
-    <br>
-    <p6>JQuery is Awesome!</p6> <!-- H7 is just for JQuery-->
-    <br>
-    <p7>JQuery is Awesome!</p7> <!-- H7 is just for JQuery-->
-    <br>
-    <p8>JQuery is Awesome!</p8> <!-- H7 is just for JQuery-->
-    <br>
-    <p9>JQuery is Awesome!</p9> <!-- H7 is just for JQuery-->
+</table>
+  <br><br>
+  <hr>
+  <br>
+  
+  <table cellspacing="10">
+      <tr>
+      <h3><strong>Work Experience:</strong></h3>
+      </tr>
+  </table>
+  <br>
+  <table cellspacing="10">
+      <tr>
+      <li>2016-2017:  First Tech Job For IHA</li>
+      </tr>
+      <br>
+      <tr>
+      <li>2017-2019:  Cell Phone Repair Express</li>
+      </tr>
+      <br>
+      <tr>
+      <li>2019-2020:  Four Dimension IT</li>
+      </tr>
+      <br>
+      <tr>
+      <li>2020-2022:  SpeedLine Tech Support</li>
+      </tr>
+      <br>
+      <tr>
+</table>
+  <br>
+  <hr>
+  <br>
+  <br>
 
+  <table cellspacing="10">
+      <tr>
+      <h3><strong>Front-End Web Development Skills:</strong></h3>
+      </tr>
+  </table>
+  <br>
+  <table cellspacing="10">
+      <tr>
+      <li>HTML 5</li>
+      </tr>
+      <br>
+      <tr>
+      <li>CSS 3</li>
+      </tr>
+      <br>
+      <tr>
+      <li>Bootstrap 4</li>
+      </tr>
+      <br>
+      <tr>
+      <li>DOM Manipulation</li>
+      </tr>
+      <br>
+      <tr>
+      <li>jQuery</li>
+      </tr>
+      <br>
+      <tr>
+      <li>Bash Command Line</li>
+      </tr>
+      <br>
+      <tr>
+      <li>Git, GitHub and Version Control</li>
+      </tr>
+      <br>
+  </table>
 
-    <br><br><br><br>
+  <table cellspacing="10">
+      <tr>
+      <h3><strong>Back-End Web Development Skills:</strong></h3>
+      </tr>
+  </table>
+  <br>
+  <table cellspacing="10">
+      <tr>
+      <li>Node.js</li>
+      </tr>
+      <br>
+      <tr>
+      <li>NPM</li>
+      </tr>
+      <br>
+      <tr>
+      <li>Express.js</li>
+      </tr>
+      <br>
+      <tr>
+      <li>EJS</li>
+      </tr>
+      <br>
+      <tr>
+      <li>REST</li>
+      </tr>
+      <br>
+      <tr>
+      <li>APIs</li>
+      </tr>
+      <br>
+      <tr>
+      <li>SQL</li>
+      </tr>
+      <br>
+      <tr>
+      <li>MongoDB</li>
+      </tr>
+      <br>
+      <tr>
+      <li>Mongoose</li>
+      </tr>
+      <br>
+      <tr>
+      <li>Authentication</li>
+      </tr>
+      <br>
+      <tr>
+      <li>Firebase</li>
+      </tr>
+      <br>
+      <tr>
+      <li>React.js</li>
+      </tr>
+      <br>
+      <tr>
+      <li>React Hooks</li>
+      </tr>
+      <br>
+      <tr>
+      <li>Web Design</li>
+      </tr>
+      <br>
+      <tr>
+      <li>Deployment with GitHub Pages, Heroku and MongoDB Atlas</li>
+      </tr>
+      <br>
+  </table>
+  <br><br>
+  <hr>
+  <br><br>
 
-    <div class="d-grid gap-2 col-6 mx-auto">
-      <button class="btn btn-dark" type="button">Change Back!</button>
-    </div>
-  </div>
-
-  <!-- JQuery Div 3-->
-
-
-
-  <!-- JavaScript and JQuery Links-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="app.js" charset="utf-8"></script>
 </body>
-<!-- JavaScript and JQuery Links-->
-
-
-<!-- Footer-->
-<footer>
-  <a id="Bottom" </a>
-    <p class=footer>See you again!</pS>
-</footer>
 
 </html>
+
+
+<!-- JavaScript and JQuery Links-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="app.js" charset="utf-8"></script>
+</body>
+<!-- JavaScript and JQuery Links-->

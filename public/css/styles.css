@@ -1,145 +1,20 @@
-.navbar-text {
-  font-size: 2.5rem;
-  font-weight: bold;
-  padding: 6px;
-}
-.offcanvas-body {
-  color: red;
-}
 
+  body {
+    background-color: honeydew
+  }
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+  }
 
-.title {
-  font-size: 12rem;
-  color: #D8F8B7;
-  font-family: 'Barlow', sans-serif;
-  text-align: center;
-  padding-top: 25px;
-}
-  
-.div1 {
-  background-color: #77ACF1;
-  padding: 30rem 30rem;
-  margin: auto;
-  position: relative;
-}
+  h1 {
+    color: darkslategray;
+  }
+  h3 {
+      color: dimgray;
+  }
 
-.div2 {
-  background-color: #3EDBF0;
-  padding: 30rem 30rem;
-  margin: auto;
-  position: relative;
-}
-
-.div3 {
-  background-color: #C0FEFC;
-  padding: 30rem 30rem;
-  margin: auto;
-  position: relative;
-}
-
-
-
-
-
-.caroselText {
-  color: white;
-  font-size: 3rem;
-}
-
-
-
-
-
-body {
-  background-image: url("images/RelaxingWaterArt.png");
-  text-align: center;
-}
-
-h2 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-
-
-
-
-
-p2 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p3 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p4 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p5 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p6 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p7 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p8 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p9 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p10 {
-  font-size: 6rem;
-  padding-top: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p11 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-.footer {
-  font-size: 12rem;
-  color: #D8F8B7;
-  font-family: 'Barlow', sans-serif;
-  text-align: center;
-}
+  img {height: 100px;}
